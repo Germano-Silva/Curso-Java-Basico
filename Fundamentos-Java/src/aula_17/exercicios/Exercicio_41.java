@@ -30,6 +30,7 @@ public class Exercicio_41 {
 
 	public static void main(String[] args) {
 		try (Scanner scan = new Scanner(System.in)) {
+			@SuppressWarnings("deprecation")
 			Locale localeBr = new Locale("pt", "BR");
 	        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(localeBr);
 	        
