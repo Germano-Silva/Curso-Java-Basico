@@ -29,9 +29,8 @@ public class Matriz_03 {
 
 		// Cria uma matriz de strings para armazenar os nomes dos filhos de cada
 		// entrevistado
-		// A primeira dimensão da matriz representa cada pessoa entrevistada
-		// A segunda dimensão da matriz será definida dinamicamente com base no número
-		// de filhos
+		// A primeira dimensão representa cada pessoa entrevistada
+		// A segunda dimensão será definida dinamicamente com base no número de filhos
 		// de cada pessoa
 		String[][] nomesFilhos = new String[numEntrevistados][];
 
