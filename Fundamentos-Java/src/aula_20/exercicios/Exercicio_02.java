@@ -34,8 +34,8 @@ public class Exercicio_02 {
 
         // ETAPA 2: ENCONTRAR MAIOR E MENOR VALOR DA LINHA 5
         // Inicializa com o primeiro elemento da linha 5 para garantir valores válidos
-        int maiorLinha5 = matrizAleatoria[5][0];
-        int menorLinha5 = matrizAleatoria[5][0];
+        int maiorLinha5 = 0;
+        int menorLinha5 = Integer.MAX_VALUE;
 
         // Percorre todos os elementos da linha 5 (índice 5)
         for (int j = 0; j < matrizAleatoria[5].length; j++) {
@@ -51,8 +51,8 @@ public class Exercicio_02 {
 
         // ETAPA 3: ENCONTRAR MAIOR E MENOR VALOR DA COLUNA 7
         // Inicializa com o primeiro elemento da coluna 7 para garantir valores válidos
-        int maiorColuna7 = matrizAleatoria[0][7];
-        int menorColuna7 = matrizAleatoria[0][7];
+        int maiorColuna7 = 0;
+        int menorColuna7 = Integer.MAX_VALUE;
 
         // Percorre todos os elementos da coluna 7 (índice 7)
         for (int i = 0; i < matrizAleatoria.length; i++) {
